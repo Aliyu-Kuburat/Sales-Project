@@ -22,3 +22,10 @@ Sales data: The primary dataset used for this analysis is the "sales.cvs" file, 
 1. Data laoding and inspection
 2. Handling missing value
 3. Data cleaning and formating 
+
+### Exploratory Data Analysis
+
+1. What is the overall sales trend?
+2. What are the top 10 educational Materials?
+3. What are the peak sales period
+   
