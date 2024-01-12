@@ -16,3 +16,9 @@ Sales data: The primary dataset used for this analysis is the "sales.cvs" file, 
 - Power BI (Data cleaning and creating report)
 
 ### Data Transformation
+
+ In the initial data preparation phase, the following tasks was performed
+ 
+1. Data laoding and inspection
+2. Handling missing value
+3. Data cleaning and formating 
