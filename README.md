@@ -1,5 +1,18 @@
 # Sales Analysis on Educational Dataset
 
+## Table of contents
+
+- [Project Overview](#project-overview)
+- [Data Soures](#data-sources)
+- [Tools](#tools)
+- [Data Transformation](#data-transformation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results](#results)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+- 
+
 ### Project Overview
 
 The data analysis project aims to provide insight into the sales performance of an education company over the past year. By analzing various aspects of the sales data, I seek to identify trends, make data-driven recommendatios and gain a deeper understanding pf the company's performance over the past 6 years.
@@ -52,3 +65,16 @@ FROM
 WHERE
     Rank <= 10;
 ``` 
+
+### Results
+
+
+### Recommendations
+
+Based on the anaysis, I recommend the following actions
+
+### Limitations
+
+Remove null values. 
+
+### Refrences 
