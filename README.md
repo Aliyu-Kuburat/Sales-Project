@@ -10,8 +10,8 @@ Sales data: The primary dataset used for this analysis is the "sales.cvs" file, 
 
 ## Tools
 
-- Excel (Data cleaning)
-  --[Download here](https://github.com/)
+- Excel (Data cleaning) 
+  - [Download here](https://github.com/)
 - SQL (Data Analysis)
 - Power BI (Data cleaning and creating report)
 
