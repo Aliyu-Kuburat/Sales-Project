@@ -14,8 +14,17 @@
 
 
 ### Project Overview
+---
 
 The data analysis project aims to provide insight into the sales performance of an education company over the past year. By analzing various aspects of the sales data, I seek to identify trends, make data-driven recommendatios and gain a deeper understanding pf the company's performance over the past 6 years.
+
+### Insights
+
+
+![Social buzz insight 2](https://github.com/Aliyu-Kuburat/Sales-Project/assets/156312358/149893a0-b19f-4530-b963-600dd34c56a6)
+
+
+![Social buzz insight](https://github.com/Aliyu-Kuburat/Sales-Project/assets/156312358/75a22372-5f55-4130-bb00-85d39400d05d)
 
 ### Data Sources
 
@@ -78,3 +87,5 @@ Based on the anaysis, I recommend the following actions
 Remove null values. 
 
 ### Refrences 
+
+
