@@ -6,4 +6,13 @@ The data analysis project aims to provide insight into the sales performance of 
 
 ### Data Sources
 
-Sales data: 
+Sales data: The primary dataset used for this analysis is the "sales.cvs" file, containg detailed information about each sales made by the company
+
+## Tools
+
+- Excel (Data cleaning)
+  --[Download here](https://github.com/)
+- SQL (Data Analysis)
+- Power BI (Data cleaning and creating report)
+
+### Data Transformation
