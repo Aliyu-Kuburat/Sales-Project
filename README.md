@@ -25,7 +25,30 @@ Sales data: The primary dataset used for this analysis is the "sales.cvs" file, 
 
 ### Exploratory Data Analysis
 
-1. What is the overall sales trend?
-2. What are the top 10 educational Materials?
-3. What are the peak sales period
-   
+- What is the overall sales trend?
+- What are the top 10 educational Materials?
+- What are the peak sales period
+
+### Data Analysis
+
+Include the codes used or features
+
+```sql
+WITH RankedMaterials AS (
+    SELECT
+        Month,
+        Year,
+        MaterialTitle,
+        ROW_NUMBER() OVER (PARTITION BY Month, Year ORDER BY SalesAmount DESC) AS Rank
+    FROM
+        YourTableName -- Replace with your actual table name
+)
+SELECT
+    Month,
+    Year,
+    MaterialTitle
+FROM
+    RankedMaterials
+WHERE
+    Rank <= 10;
+``` 
