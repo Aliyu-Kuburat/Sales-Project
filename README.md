@@ -48,20 +48,20 @@ A)  In the initial data preparation phase, the following tasks was performed
 B) 
  **Basic Data Transformation**
 
-1. Perform data profilig to understand data quality, confirm data accuracy and completness. 
-   Check the table view of data before transforming the data
-   -id has 2 blank values across dataset (to be deleted)
-   -title has 1689 date data value and every other informations are N/A (to be deleted)
-   -email has 1689 date data value and every other informations are N/A (to be deleted)
-   -priceTotal has 2 blank values across dataset (to be deleted)
-   -priceQa has 2 blank values across dataset (to be deleted)
-   -priceCustomer has 2 blank values across dataset (to be deleted)
-   -created has 2 blank values across dataset (to be deleted)
-   -category has 1689 date data value and every other informations are N/A (to be deleted)
-   -buyerName has 1689 date data value and every other informations are N/A (to be deleted)
-   -buyerEmail has 58,222 null values, but there are values across other column in the dataset 
+   - Perform data profilig to understand data quality, confirm data accuracy and completness. 
+   - Check the table view of data before transforming the data
+   - id has 2 blank values across dataset (to be deleted)
+   - title has 1689 date data value and every other informations are N/A (to be deleted)
+   - email has 1689 date data value and every other informations are N/A (to be deleted)
+   - priceTotal has 2 blank values across dataset (to be deleted)
+   - priceQa has 2 blank values across dataset (to be deleted)
+   - priceCustomer has 2 blank values across dataset (to be deleted)
+   - created has 2 blank values across dataset (to be deleted)
+   - category has 1689 date data value and every other informations are N/A (to be deleted)
+   - buyerName has 1689 date data value and every other informations are N/A (to be deleted)
+   - buyerEmail has 58,222 null values, but there are values across other column in the dataset 
     (null values not to be deleted)
-   -buyerPhone has 1689 date data value and every other informations are N/A (to be deleted)
+   - buyerPhone has 1689 date data value and every other informations are N/A (to be deleted)
 
 The Dataset now contains 54,432 informations.
 
