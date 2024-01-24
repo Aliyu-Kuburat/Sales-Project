@@ -20,10 +20,8 @@ The objective of the data analysis project is to gain comprehensive insights int
 
 ### Insights
 
-
-
-
-
+<img width="593" alt="image" src="https://github.com/Aliyu-Kuburat/Sales-Project/assets/156312358/ea69dacb-38aa-4755-b086-6b84bb94956b">
+<img width="590" alt="image" src="https://github.com/Aliyu-Kuburat/Sales-Project/assets/156312358/774bb530-cb7a-4687-b172-e21fe30b1362">
 
 
 ### Data Sources
@@ -58,7 +56,7 @@ B)
    - Removed rows with 1689 date values and N/A entries in the 'category' and 'buyerName' columns.
    - Eliminated rows with 1689 date values and N/A entries in the 'buyerPhone' column.
    - Retained null values (1687) in the 'buyerEmail' column without deletion, considering the presence of values in other columns.
-   - 
+   
 The dataset has undergone cleaning, resulting in a refined dataset comprising 54,432 entries.
 
 2. Checked Data Types
