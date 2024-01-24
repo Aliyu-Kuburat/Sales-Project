@@ -47,29 +47,26 @@ A)  In the initial data preparation phase, the following tasks were performed
 B) 
  **Basic Data Transformation**
 
-   - I Perform data profiling to understand data quality and confirm data accuracy and completeness. 
-   - Checked the table view of data before transforming the data
-   - ID has 2 blank values across the dataset (to be deleted)
-   - The title has a 1689 date data value and every other piece of information are N/A (to be deleted)
-   - email has 1689 date data value and every other information is N/A (to be deleted)
-   - pricetotal has 2 blank values across the dataset (to be deleted)
-   - priceQa has 2 blank values across the dataset (to be deleted)
-   - priceCustomer has 2 blank values across the dataset (to be deleted)
-   - created has 2 blank values across the dataset (to be deleted)
-   - category has 1689 date data value and every other information is N/A (to be deleted)
-   - buyerName has 1689 date data value and every other information is N/A (to be deleted)
-   - buyerEmail has 58,222 null values, but there are values across other column in the dataset 
-    (null values not to be deleted)
-   - buyerPhone has a 1689 date data value and every other information is N/A (to be deleted)
+1. I commenced the data cleaning process with a dataset containing 60,127 entries. The following steps were undertaken:
 
-The Dataset now contains 54,432 information.
+   - Conducted data profiling to assess data quality, ensuring confirmation of accuracy and completeness.
+   - Reviewed the table view of the data before any transformations.
+   - Identified and addressed issues within specific columns:
+   - Removed rows with 2 blank values in the 'ID' column.
+   - Eliminated rows with 1689 date values and N/A entries in the 'title' and 'email' columns.
+   - Deleted rows with 2 blank values in the 'pricetotal', 'priceQa', 'priceCustomer', and 'created' columns.
+   - Removed rows with 1689 date values and N/A entries in the 'category' and 'buyerName' columns.
+   - Eliminated rows with 1689 date values and N/A entries in the 'buyerPhone' column.
+   - Retained null values (1687) in the 'buyerEmail' column without deletion, considering the presence of values in other columns.
+   - 
+The dataset has undergone cleaning, resulting in a refined dataset comprising 54,432 entries.
 
-2. Data Types check  
-3. Remove empty and error dataset with conditions
-4. Rename Column (Order Id, Material Title, Partners Email, Cost of Material, Company shares, 
-   Partners Share, Date, Category code,Customer Name, Customer Email, Customer Phone and Material Category.    
-5. Create and tables ( Material,Partners, Customer)
-
+2. Checked Data Types
+3. Eliminated empty and erroneous datasets based on specified conditions.
+4. Renamed Columns to: 'Order Id,' 'Material Title,' 'Partners Email,' 'Cost of Material,' 'Company Shares,' 'Partners Share,' 'Date,' 'Category Code,' 'Customer Name,' 
+   'Customer Email,' 'Customer Phone,' and 'Material Category.'
+5. Created three tables: 'Material,' 'Partners,' and 'Customer.'
+   
 **Breaking into multiple tables**
 
 To create a well-structured data model in Power BI, it's a good practice to split your data into multiple tables, 
