@@ -20,7 +20,8 @@ The objective of the data analysis project is to gain comprehensive insights int
 
 ### Insights
 
-<img width="593" alt="image" src="https://github.com/Aliyu-Kuburat/Sales-Project/assets/156312358/ea69dacb-38aa-4755-b086-6b84bb94956b">
+<img width="591" alt="image" src="https://github.com/Aliyu-Kuburat/Sales-Project/assets/156312358/e5c594d6-ff9e-4675-9f00-6fea8daeefde">
+
 <img width="590" alt="image" src="https://github.com/Aliyu-Kuburat/Sales-Project/assets/156312358/774bb530-cb7a-4687-b172-e21fe30b1362">
 
 
