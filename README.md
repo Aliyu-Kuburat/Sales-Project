@@ -8,7 +8,7 @@
 - [Data Transformation](#data-transformation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Data Analysis](#data-analysis)
-- [Results](#results)
+- [Analysis Results](#analysis-results)
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
 
