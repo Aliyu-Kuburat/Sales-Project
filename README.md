@@ -182,7 +182,7 @@ Based on the analysis, the following recommendations are proposed:
    variations such as 'O level/ A level' being represented in five different ways, and 'Business/Career' having three different representations.
   for instance;
   - O level/ A level is named in 5 different ways, O level/ A level, O Level/A level, O Level/ A Level, O level/A level.
-  - Business/Career is named 3 different ways, Business, Business/career, Business/Business/Career
+  - Business/Career is named 3 different ways, Business, Business/career, Business/Business/Career.
 2. Implement a detailed customer order information system. Introduce partner ID and order details ID
 3. Introduce a 'BuyerID' labelled as 'Order Details ID' to facilitate easy customer identification.
 4. Establish a 'Material ID' for improved material tracking.
