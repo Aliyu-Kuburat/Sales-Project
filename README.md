@@ -71,19 +71,18 @@ The dataset has undergone cleaning, resulting in a refined dataset comprising 54
 
 To create a well-structured data model in Power BI, it's a good practice to split your data into multiple tables, 
 typically into lookup tables and fact tables. The goal is to reduce redundancy, improve data integrity, 
-and enhance the efficiency of queries. 
+and enhance the efficiency of queries and visuals. 
 
 **Breakout tables and columns**
 
 **Material Table**:
-Columns: Order Id, Material Title, Category Code, Material Category
-Partners Table:
+Columns: Order ID, Material Title, Category Code, Material Category
+**Partners Table**:
 Columns: id, Partners Email
-Customer  Table:
-Columns: id, Customer Name, Customer Email, Customer Phone
-Date     Table
+**Customer  Table**:
+Columns: ID, Customer Name, Customer Email, Customer Phone
+**Date Table**
 Columns: Date, Year, Month, hour
-
 **Sales Table**:
 Columns: id, Date, Cost of Material, Company Shares of Sales, Partners Share of Sales
 
@@ -92,7 +91,6 @@ Columns: id, Date, Cost of Material, Company Shares of Sales, Partners Share of 
 **Material Table**:
 Select the columns "Material Title", "Category" and "Category Code."
 Remove duplicates.
-
 
 **Partners Table**:
 Follow similar steps for the "Partners Email" column.
@@ -104,7 +102,7 @@ Follow similar steps for the columns related to buyers.
 Columns: Date, Year, Month, hour, Day No, Month No
 
 **Sales Table**:
-Select the columns related to sales: "Date," "Cost of Material," "Company Shares of Sales," "Partners Share of Sales."
+Select the columns related to sales: "Date," "Cost of Material," "Company Shares of Sales," and "Partners Share of Sales."
 
 ### Load data for modelling.
  Connect Tables if it doesn't connect automatically and check relationships
