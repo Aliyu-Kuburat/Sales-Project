@@ -150,8 +150,29 @@ WHERE
     Rank <= 10;
 ``` 
 
-### Results
-- 
+### Analysis Results
+
+- The company's total revenue amounted to NGN 3,793,480, with a profit of NGN 1,480,116.
+
+- A total of 58,423 orders were processed.
+
+- There are 854 unique customers.
+
+- The average order frequency is one per day.
+
+- May (2019-2023) recorded the highest sales.
+
+- Wednesday emerged as the most lucrative day of the week.
+
+- Over 27,000 materials were purchased without recorded details, constituting the highest category in sales, followed by job tests.
+
+- Peak order times range from 4 pm to 8 pm daily.
+
+- The company collaborates with 40 partners.
+
+- Partners' revenue reached NGN 2,276,088.
+
+- The highest count and sum of sales occurred in 2019.
 
 ### Recommendations
 
@@ -170,7 +191,7 @@ Based on the analysis, the following recommendations are proposed:
 
 ### Limitations
 
-- Some Blank columns with relevant information was replaced with zero
+- Some Blank columns with relevant information were replaced with zero
 - Eliminated null values that lacked relevant information
 ### References 
 
