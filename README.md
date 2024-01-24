@@ -16,7 +16,7 @@
 ### Project Overview
 ---
 
-The data analysis project aims to provide insight into the sales performance of an education company over the past year. By analzing various aspects of the sales data, I seek to identify trends, make data-driven recommendatios and gain a deeper understanding pf the company's performance over the past 6 years.
+The objective of the data analysis project is to gain comprehensive insights into the sales performance of an education company throughout the previous year. Through a thorough examination of diverse aspects of the sales data, the goal is to pinpoint trends, formulate recommendations based on data, and develop a profound comprehension of the company's performance spanning the last six years.
 
 ### Insights
 
@@ -28,42 +28,41 @@ The data analysis project aims to provide insight into the sales performance of 
 
 ### Data Sources
 
-Sales data: The primary dataset used for this analysis is the "sales.cvs" file, containg detailed information about each sales made by the company
+Sales data: The primary dataset used for this analysis is the "sales. cvs" file of the company, containing detailed information about each sale made.
 
 ## Tools
 
 - Excel (Data cleaning) 
-  - [Download here](https://github.com/)
 - SQL (Data Analysis)
-- Power BI (Data cleaning and creating report)
+- Power BI (Data cleaning and creating reports)
 
 ### Data Transformation
 
-A)  In the initial data preparation phase, the following tasks was performed
+A)  In the initial data preparation phase, the following tasks were performed
  
-1. Data laoding and inspection
+1. Data loading and inspection
 2. Handling missing value
-3. Data cleaning and formating
+3. Data cleaning and formatting
 
 B) 
  **Basic Data Transformation**
 
-   - Perform data profilig to understand data quality, confirm data accuracy and completness. 
-   - Check the table view of data before transforming the data
-   - id has 2 blank values across dataset (to be deleted)
-   - title has 1689 date data value and every other informations are N/A (to be deleted)
-   - email has 1689 date data value and every other informations are N/A (to be deleted)
-   - priceTotal has 2 blank values across dataset (to be deleted)
-   - priceQa has 2 blank values across dataset (to be deleted)
-   - priceCustomer has 2 blank values across dataset (to be deleted)
-   - created has 2 blank values across dataset (to be deleted)
-   - category has 1689 date data value and every other informations are N/A (to be deleted)
-   - buyerName has 1689 date data value and every other informations are N/A (to be deleted)
+   - I Perform data profiling to understand data quality and confirm data accuracy and completeness. 
+   - Checked the table view of data before transforming the data
+   - ID has 2 blank values across the dataset (to be deleted)
+   - The title has a 1689 date data value and every other piece of information are N/A (to be deleted)
+   - email has 1689 date data value and every other information is N/A (to be deleted)
+   - pricetotal has 2 blank values across the dataset (to be deleted)
+   - priceQa has 2 blank values across the dataset (to be deleted)
+   - priceCustomer has 2 blank values across the dataset (to be deleted)
+   - created has 2 blank values across the dataset (to be deleted)
+   - category has 1689 date data value and every other information is N/A (to be deleted)
+   - buyerName has 1689 date data value and every other information is N/A (to be deleted)
    - buyerEmail has 58,222 null values, but there are values across other column in the dataset 
     (null values not to be deleted)
-   - buyerPhone has 1689 date data value and every other informations are N/A (to be deleted)
+   - buyerPhone has a 1689 date data value and every other information is N/A (to be deleted)
 
-The Dataset now contains 54,432 informations.
+The Dataset now contains 54,432 information.
 
 2. Data Types check  
 3. Remove empty and error dataset with conditions
